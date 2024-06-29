@@ -1,0 +1,13 @@
+debug/altitude_feet_data.o
+debug/course_data.o
+debug/flight_data.o
+debug/kts_data.o
+debug/latitude_data.o
+debug/longitude_data.o
+debug/main.o
+debug/mainwindow.o
+debug/mph_data.o
+debug/reporting_facility.o
+debug/time_data.o
+debug/utility.o
+debug/moc_mainwindow.o

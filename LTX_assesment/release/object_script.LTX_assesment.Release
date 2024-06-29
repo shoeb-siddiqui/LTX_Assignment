@@ -1,0 +1,13 @@
+release/altitude_feet_data.o
+release/course_data.o
+release/flight_data.o
+release/kts_data.o
+release/latitude_data.o
+release/longitude_data.o
+release/main.o
+release/mainwindow.o
+release/mph_data.o
+release/reporting_facility.o
+release/time_data.o
+release/utility.o
+release/moc_mainwindow.o

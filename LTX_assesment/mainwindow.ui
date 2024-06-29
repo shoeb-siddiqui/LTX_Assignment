@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LTX Assignment</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QTableView" name="tableView">
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="Load_data_from_csv">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> QPushButton {
+    background-color: red; 
+    color: black; 
+     border: 2px solid #388E3C; 
+      border-radius: 5px; 
+     padding: 10px 20px; 
+      font-size: 14px;
+font: 900 10pt &quot;Arial Black&quot;;
+    }
+   
+    QPushButton:pressed {
+    background-color: green;
+    }
+</string>
+          </property>
+          <property name="text">
+           <string>Load CSV</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_write_JSON">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> QPushButton {
+    background-color: red; 
+    color: black; 
+     border: 2px solid #388E3C; 
+      border-radius: 5px; 
+     padding: 10px 20px; 
+      font-size: 14px;
+font: 900 10pt &quot;Arial Black&quot;;
+    }
+   
+    QPushButton:pressed {
+    background-color: green;
+    }
+</string>
+          </property>
+          <property name="text">
+           <string>Write JSON</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_load_db">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> QPushButton {
+    background-color: red; 
+    color: black; 
+     border: 2px solid #388E3C; 
+      border-radius: 5px; 
+     padding: 10px 20px; 
+      font-size: 14px;
+font: 900 10pt &quot;Arial Black&quot;;
+    }
+   
+    QPushButton:pressed {
+    background-color: green;
+    }
+</string>
+          </property>
+          <property name="text">
+           <string>Write to Database</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
